@@ -1,0 +1,25 @@
+gsap.from(".anim-1",{
+    duration:1,
+    stagger:.1,
+    y:'-500',
+    opacity:0
+})
+
+gsap.from('.anim',{
+    duration:1,
+    x:"-500",
+    ease:Expo.EaseIn,
+    opacity:0,
+    stagger:.1
+})
+gsap.from(".anim-2",{
+    duration:1,
+    stagger:.1,
+    y:"-500",
+    opacity:0
+})
+gsap.from(".img",{
+    duration:1,
+    scale:0,
+    rotate:180
+})
